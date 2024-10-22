@@ -1,0 +1,9 @@
+id: test111
+canonical: http://my-ig-1.com
+name: test111
+title: test111
+status: draft
+version: 1.0.0
+fhirVersion: 5.0.0
+copyrightYear: 2024+
+releaseLabel: ballot

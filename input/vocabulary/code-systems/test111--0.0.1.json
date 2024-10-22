@@ -1,0 +1,108 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "test111--0.0.1",
+  "language" : "en",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "http://localhost:4200/fhir/CodeSystem/test111"
+  }, {
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
+    "valueCode" : "executable"
+  } ],
+  "url" : "http://my-code-system-1.com",
+  "version" : "0.0.1",
+  "title" : "test111",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-09-19T16:12:11.071063+03:00",
+  "effectivePeriod" : {
+    "start" : "2024-09-19T00:00:00Z"
+  },
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [ {
+    "code" : "display",
+    "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
+    "description" : "Display",
+    "type" : "string"
+  }, {
+    "code" : "effectiveDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#effectiveDate",
+    "description" : "Effective Date",
+    "type" : "dateTime"
+  }, {
+    "code" : "organism",
+    "type" : "string"
+  }, {
+    "code" : "site",
+    "type" : "string"
+  } ],
+  "concept" : [ {
+    "code" : "38907003",
+    "display" : "Varicella",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Chicken pox"
+    }, {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Ветрянная оспа"
+    } ],
+    "property" : [ {
+      "code" : "effectiveDate",
+      "valueDateTime" : "2024-08-01T00:00:00Z"
+    }, {
+      "code" : "organism",
+      "valueString" : "Varicellovirus humanalpha2"
+    }, {
+      "code" : "site",
+      "valueString" : "Кожа"
+    } ]
+  }, {
+    "code" : "38907003",
+    "display" : "Varicella",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Chicken pox"
+    } ],
+    "property" : [ {
+      "code" : "effectiveDate",
+      "valueDateTime" : "2024-08-01T00:00:00Z"
+    }, {
+      "code" : "organism",
+      "valueString" : "Varicellovirus humanalpha2"
+    } ]
+  }, {
+    "code" : "74400008",
+    "display" : "Appendicitis",
+    "designation" : [ {
+      "language" : "en",
+      "use" : {
+        "code" : "display"
+      },
+      "value" : "Аппендицит"
+    } ],
+    "property" : [ {
+      "code" : "effectiveDate",
+      "valueDateTime" : "2024-07-01T00:00:00Z"
+    }, {
+      "code" : "site",
+      "valueString" : "Аппендикс"
+    } ]
+  }, {
+    "code" : "74400008",
+    "display" : "Appendicitis",
+    "property" : [ {
+      "code" : "effectiveDate",
+      "valueDateTime" : "2024-07-01T00:00:00Z"
+    } ]
+  } ]
+}
